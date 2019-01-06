@@ -1,0 +1,14 @@
+<div class="container mt-3">
+    <h2>Add A Goal</h2>
+    <form action="/goals" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input required type="text" class="form-control" id="goal-name" placeholder="Enter a name for your goal">
+        </div>
+        <div class="form-group">
+            <label for="details">Details:</label>
+            <textarea required type="text" class="form-control" id="goal-details" placeholder="Put in some details, be specific"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
