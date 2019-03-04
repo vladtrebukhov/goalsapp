@@ -1,0 +1,13 @@
+{{#each goals}}
+<div class="container mt-3">
+    <div class="card card-body">
+        <h4>{{name}}</h4>
+        <p>{{details}}</p>
+        <a style="width: 75px; font-size: 13px" class="btn btn-info" href=" goals/edit/{{id}}">Edit </a>
+    </div>
+</div>
+{{else}} <div class="container mt-3">
+    <p>No goals listed</p>
+</div>
+
+{{/each}}
